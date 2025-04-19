@@ -1,0 +1,1 @@
+# uniprot-importer-mapping
