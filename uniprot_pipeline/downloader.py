@@ -2,7 +2,7 @@ import os
 import requests
 import json
 from typing import Optional, List
-from flatten import flatten_json 
+from .flatten import flatten_json 
 
 def uniprot_data(
     query: str,
