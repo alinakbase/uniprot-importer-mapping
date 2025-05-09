@@ -117,7 +117,7 @@ def uniprot_data(
     save_json(flat_json_path, flattened)
     save_jsonl(flat_jsonl_path, flattened)
     save_jsonl(raw_jsonl_path, records)
-    return flattened
+    return flattened, response.headers
 
 
 # Standalone usage for local testing
